@@ -1,0 +1,200 @@
+body {
+  background-image: url("../assets/destination/background-destination-desktop.jpg");
+}
+
+.img-destination {
+  position: absolute;
+  left: 230px;
+  top: 207px;
+}
+.dest-menu-module {
+  height: 472px;
+  width: 445px;
+  position: absolute;
+  right: 163px;
+  top: 174px;
+}
+
+/*---------------  DESTINATION MENU BLOCK BEGIN  ---------------*/
+
+.dest-menu-block {
+  width: 286px;
+  height: 34px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.moon-page {
+  width: 39px;
+  height: 34px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.moon-button {
+  width: 39px;
+  height: 34px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.moon-button:hover {
+  opacity: 0.5;
+}
+.moon-line {
+  width: 39px;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  background-color: #FFFFFF;
+}
+.moon-default {
+  width: 39px;
+  height: 34px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.mars-page {
+  width: 37px;
+  height: 34px;
+  position: absolute;
+  left: 74px;
+  top: 0;
+}
+.mars-button {
+  width: 37px;
+  height: 34px;
+  position: absolute;
+  left: 74px;
+  top: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.mars-button:hover {
+  opacity: 0.5;
+}
+.mars-line {
+  width: 37px;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  background-color: #FFFFFF;
+}
+.mars-default {
+  width: 37px;
+  height: 34px;
+  position: absolute;
+  left: 74px;
+  top: 0;
+}
+
+.europa-page {
+  width: 56px;
+  height: 34px;
+  position: absolute;
+  left: 147px;
+  top: 0;
+}
+.europa-button {
+  width: 56px;
+  height: 34px;
+  position: absolute;
+  left: 147px;
+  top: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.europa-button:hover {
+  opacity: 0.5;
+}
+.europa-line {
+  width: 56px;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  background-color: #FFFFFF;
+}
+.europa-default {
+  width: 56px;
+  height: 34px;
+  position: absolute;
+  left: 147px;
+  top: 0;
+}
+
+.titan-page {
+  width: 42px;
+  height: 34px;
+  position: absolute;
+  left: 239px;
+  top: 0;
+}
+.titan-button {
+  width: 42px;
+  height: 34px;
+  position: absolute;
+  left: 239px;
+  top: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.titan-button:hover {
+  opacity: 0.5;
+}
+.titan-line {
+  width: 42px;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  background-color: #FFFFFF;
+}
+.titan-default {
+  width: 42px;
+  height: 34px;
+  position: absolute;
+  left: 239px;
+  top: 0;
+}
+/*---------------  DESTINATION MENU BLOCK END  ---------------*/
+
+.dest-description-header {
+  margin: 71px auto 20px;
+}
+.dest-description-bottom {
+  color: #D0D6F9;
+  line-height: 1.7;
+  font-weight: 100;
+}
+.dest-horisontal-rule {
+  border-style: none;
+  border-top: solid;
+  border-width: 1px;
+  border-color: #383B4B;
+  margin: 54px auto 28px;
+}
+
+.dest-distance-box {
+  height: 61px;
+  width: 155px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.dest-traveltime-box {
+  height: 61px;
+  width: 144px;
+  position: absolute;
+  left: 222px;
+  bottom: 0;
+}
+.distance-traveltime-head {
+  margin: 0 auto 12px;
+}
+.distance-traveltime {
+  margin: auto;
+}

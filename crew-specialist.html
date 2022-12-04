@@ -8,7 +8,7 @@
 
   <title>Frontend Mentor | Space tourism website</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/crew-style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap" rel="stylesheet">
@@ -20,9 +20,9 @@
       <div class="home-page">  <!-- Block of 1 button -->
           <div class="navtext navtext-properties"><b>00</b> HOME</div>
       </div>
-      <div class="home-default">
+      <a href="index.html"><div class="home-button">
           <div class="home-line"></div>
-      </div>
+      </div></a>
       <div class="destination-page">  <!-- Block of 2 button -->
         <div class="navtext navtext-properties"><b>01</b> DESTINATION</div>
       </div>
@@ -32,9 +32,9 @@
       <div class="crew-page">  <!-- Block of 3 button -->
         <div class="navtext navtext-properties"><b>02</b> CREW</div>
       </div>
-      <a href="crew-commander.html"><div class="crew-button">
+      <div class="crew-default">
         <div class="crew-line"></div>
-      </div></a>
+      </div>
       <div class="technology-page">  <!-- Block of 4 button -->
         <div class="navtext navtext-properties"><b>03</b> TECHNOLOGY</div>
       </div>
@@ -45,19 +45,22 @@
     <div class="top-line"></div>
   </div>
   <div class="middle-container">
-    <div class="description-module">
-      <h5 class="description-top">So, you want to travel to</h5>
-      <p class="heading1 description-middle">Space</p>
-      <p class="description-bottom">Let’s face it; if you want to go to space, you might as well genuinely go to
-      outer space and not hover kind of on the edge of it. Well sit back, and relax
-      because we’ll give you a truly out of this world experience!</p>
+    <div class="top-text-header">
+      <h5 class="top-text-header-1"><b>02</b></h5>
+      <h5 class="top-text-header-2">Meet your crew</h5>
     </div>
-    <div class="explore-page">
-      <p class="heading4 text-explore-page">Explore<p>
+    <p class="heading4 post-crew">Mission Specialist</p>
+    <p class="heading3 name-crew">Mark Shuttleworth</p>
+    <p class="about-crew-2">Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind
+    the Linux-based Ubuntu operating system. Shuttleworth became the first South
+    African to travel to space as a space tourist.</p>
+    <img class="image-crew-2" src="assets/crew/image-mark-shuttleworth.png" alt="crew-img">
+    <div class="bottom-menu-crew">
+      <a href="crew-commander.html"><div class="crew-button-1"></div></a>
+      <div class="crew-button-current-2"></div>
+      <a href="crew-pilot.html"><div class="crew-button-3"></div></a>
+      <a href="crew-engineer.html"><div class="crew-button-4"></div></a>
     </div>
-    <a href="destination-moon.html"><div class="explore-button">
-      <div class="animation-explore-button"></div>
-    </div></a>
   </div>
 </body>
 </html>

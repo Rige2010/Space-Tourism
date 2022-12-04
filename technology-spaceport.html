@@ -8,7 +8,7 @@
 
   <title>Frontend Mentor | Space tourism website</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/technology-style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap" rel="stylesheet">
@@ -20,9 +20,9 @@
       <div class="home-page">  <!-- Block of 1 button -->
           <div class="navtext navtext-properties"><b>00</b> HOME</div>
       </div>
-      <div class="home-default">
+      <a href="index.html"><div class="home-button">
           <div class="home-line"></div>
-      </div>
+      </div></a>
       <div class="destination-page">  <!-- Block of 2 button -->
         <div class="navtext navtext-properties"><b>01</b> DESTINATION</div>
       </div>
@@ -38,26 +38,41 @@
       <div class="technology-page">  <!-- Block of 4 button -->
         <div class="navtext navtext-properties"><b>03</b> TECHNOLOGY</div>
       </div>
-      <a href="technology-vehicle.html"><div class="technology-button">
+      <div class="technology-default">
         <div class="technology-line"></div>
-      </div></a>
+      </div>
     </div>
     <div class="top-line"></div>
   </div>
   <div class="middle-container">
-    <div class="description-module">
-      <h5 class="description-top">So, you want to travel to</h5>
-      <p class="heading1 description-middle">Space</p>
-      <p class="description-bottom">Let’s face it; if you want to go to space, you might as well genuinely go to
-      outer space and not hover kind of on the edge of it. Well sit back, and relax
-      because we’ll give you a truly out of this world experience!</p>
+    <div class="top-text-header">
+      <h5 class="top-text-header-1"><b>03</b></h5>
+      <h5 class="top-text-header-2">Space launch 101</h5>
     </div>
-    <div class="explore-page">
-      <p class="heading4 text-explore-page">Explore<p>
+    <div class="menu-technology-block">
+
+      <div class="page-tech-1">
+        <p class="heading4 text-button-tech">1</p>
+      </div>
+      <a href="technology-vehicle.html"><div class="button-tech-1"></div></a>
+
+      <div class="current-button-tech-2"><p class="heading4 current-text-button-tech">2</p></div>
+
+      <div class="page-tech-3">
+        <p class="heading4 text-button-tech">3</p>
+      </div>
+      <a href="technology-capsule.html"><div class="button-tech-3"></div></a>
     </div>
-    <a href="destination-moon.html"><div class="explore-button">
-      <div class="animation-explore-button"></div>
-    </div></a>
+
+    <div class="descripption-block-technology">
+      <p class="navtext top-text-technology">The terminology...</p>
+      <p class="heading3 middle-text-technology">Spaceport</p>
+      <p class="bottom-text-technology">A spaceport or cosmodrome is a site for launching (or receiving) spacecraft,
+      by analogy to the seaport for ships or airport for aircraft. Based in the
+      famous Cape Canaveral, our spaceport is ideally situated to take advantage
+      of the Earth’s rotation for launch.</p>
+    </div>
+    <img class="image-technology" src="assets/technology/image-spaceport-portrait.jpg" alt="technology-image">
   </div>
 </body>
 </html>

@@ -1,0 +1,177 @@
+body {
+  background-image: url("../assets/crew/background-crew-desktop.jpg");
+  color: #D0D6F9;
+}
+.post-crew {
+  position: absolute;
+  left: 165px;
+  top: 264px;
+  opacity: 0.5;
+  margin: 0 auto 15px;
+}
+.name-crew {
+  position: absolute;
+  left: 165px;
+  top: 316px;
+  margin: 15px auto 15px;
+}
+.about-crew-1 {
+  height: 128px;
+  width: 444px;
+  position: absolute;
+  left: 165px;
+  top: 418px;
+  margin: 15px auto 15px;
+  color: #D0D6F9;
+  line-height: 1.7;
+  font-weight: 100;
+}
+.image-crew-1 {
+  position: absolute;
+  right: 137px;
+  bottom: -10px;
+  margin-bottom: 10px;
+}
+.about-crew-2 {
+  height: 128px;
+  width: 444px;
+  position: absolute;
+  left: 165px;
+  top: 418px;
+  margin: 15px auto 15px;
+  color: #D0D6F9;
+  line-height: 1.7;
+  font-weight: 100;
+}
+.image-crew-2 {
+  position: absolute;
+  right: 186px;
+  bottom: 0;
+
+}
+.about-crew-3 {
+  height: 160px;
+  width: 444px;
+  position: absolute;
+  left: 165px;
+  top: 418px;
+  margin: 15px auto 15px;
+  color: #D0D6F9;
+  line-height: 1.7;
+  font-weight: 100;
+}
+.image-crew-3 {
+  position: absolute;
+  right: 142px;
+  bottom: -27px;
+  margin-bottom: 27px;
+}
+.about-crew-4 {
+  height: 128px;
+  width: 444px;
+  position: absolute;
+  left: 165px;
+  top: 418px;
+  margin: 15px auto 15px;
+  color: #D0D6F9;
+  line-height: 1.7;
+  font-weight: 100;
+}
+.image-crew-4 {
+  position: absolute;
+  right: 89px;
+  bottom: 0;
+
+}
+
+.bottom-menu-crew {
+  height: 15px;
+  width: 132px;
+  position: absolute;
+  left: 167px;
+  top: 655px;
+}
+.crew-button-1 {
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: 0;
+  opacity: 0.17;
+  transition: opacity 0.5s;
+}
+.crew-button-1:hover {
+  opacity: 0.5;
+}
+.crew-button-current-1 {
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: 0;
+}
+.crew-button-2 {
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: 39px;
+  opacity: 0.17;
+  transition: opacity 0.5s;
+}
+.crew-button-2:hover {
+  opacity: 0.5;
+}
+.crew-button-current-2 {
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: 39px;
+}
+.crew-button-3 {
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: 78px;
+  opacity: 0.17;
+  transition: opacity 0.5s;
+}
+.crew-button-3:hover {
+  opacity: 0.5;
+}
+.crew-button-current-3 {
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: 78px;
+}
+.crew-button-4 {
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: 117px;
+  opacity: 0.17;
+  transition: opacity 0.5s;
+}
+.crew-button-4:hover {
+  opacity: 0.5;
+}
+.crew-button-current-4 {
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: 117px;
+}

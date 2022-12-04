@@ -1,0 +1,151 @@
+body {
+  background-image: url("../assets/technology/background-technology-desktop.jpg");
+}
+.image-technology {
+  position: absolute;
+  right: 0;
+  top: 136px;
+}
+
+.menu-technology-block {
+  height: 304px;
+  width: 80px;
+  position: absolute;
+  left: 165px;
+  top: 247px;
+}
+
+.text-button-tech {
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 22px;
+}
+.current-text-button-tech {
+  color: #0B0D17;
+  text-align: center;
+  margin-top: 22px;
+}
+
+.page-tech-1 {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+}
+.button-tech-1 {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: 1px;
+  opacity: 0.25;
+  transition: opacity 0.5s;
+}
+.button-tech-1:hover {
+  opacity: 1;
+}
+.current-button-tech-1 {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 100%;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.page-tech-2 {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: 113px;
+  left: 1;
+}
+.button-tech-2 {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: 112px;
+  left: 0;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: 1px;
+  opacity: 0.25;
+  transition: opacity 0.5s;
+}
+.button-tech-2:hover {
+  opacity: 1;
+}
+.current-button-tech-2 {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: 112px;
+  left: 0;
+  border-radius: 100%;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.page-tech-3 {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: 225px;
+  left: 1px;
+}
+.button-tech-3 {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: 224px;
+  left: 0;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: 1px;
+  opacity: 0.25;
+  transition: opacity 0.5s;
+}
+.button-tech-3:hover {
+  opacity: 1;
+}
+.current-button-tech-3 {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: 224px;
+  left: 0;
+  border-radius: 100%;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.descripption-block-technology {
+  height: 303px;
+  width: 470px;
+  position: absolute;
+  left: 325px;
+  top: 247px;
+}
+.top-text-technology {
+  margin: auto;
+  color: #D0D6F9;
+  text-align: left;
+}
+.middle-text-technology {
+  margin: 10px auto 20px;
+  color: #FFFFFF;
+}
+.bottom-text-technology {
+  color: #D0D6F9;
+  line-height: 1.7;
+  font-weight: 100;
+}
